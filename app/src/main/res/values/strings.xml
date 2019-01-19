@@ -1,0 +1,6 @@
+<resources>
+    <string name="appname">MyApplication</string>
+
+    <string name="btn_consulting">Consulting</string>
+    <string name="txt_into_repository">Book List:</string>
+</resources>
