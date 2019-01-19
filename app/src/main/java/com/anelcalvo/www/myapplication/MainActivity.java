@@ -6,6 +6,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -32,10 +33,9 @@ public class MainActivity extends AppCompatActivity {
 
         repositories        = new ArrayList<>();
         repoAdapter         = new RepositoryAdapter(repositories);
-        rv_repositories     = (RecyclerView) findViewById(R.id.a_main_recycler);
+        rv_repositories     = findViewById(R.id.a_main_recycler);
         rv_repositories.setLayoutManager(new LinearLayoutManager(this));
         rv_repositories.setAdapter(repoAdapter);
-
     }
 
 
@@ -67,7 +67,8 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onFailure(Call<List<Repo>> call, Throwable t) {
-                Log.d(TAG,"response "+ t.getMessage());
+                Toast.makeText(getApplicationContext(), "Error" + t.getMessage(), Toast.LENGTH_LONG).show();
+                Log.d(TAG, "error " + t.getMessage());
             }
         });
     }
