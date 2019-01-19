@@ -6,7 +6,6 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
-import android.widget.EditText;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -49,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 
-        GitHubService service = retrofit.create(GitHubService.class);
+        ManagerService service = retrofit.create(ManagerService.class);
         Call<List<Repo>> repos = service.listRepos();
         repos.enqueue(new Callback<List<Repo>>() {
             @Override
