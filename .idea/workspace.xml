@@ -66,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/anelcalvo/www/myapplication/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-25">
-              <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+            <state relative-caret-position="397">
+              <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,7 +87,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
           <provider editor-type-id="android-designer2" />
           <provider selected="true" editor-type-id="text-editor" />
@@ -113,10 +113,10 @@
       <list>
         <option value="$PROJECT_DIR$/app/src/main/java/com/anelcalvo/www/myapplication/ManagerService.java" />
         <option value="$PROJECT_DIR$/../../AnelExample/AnelCalvo/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/anelcalvo/www/myapplication/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/../../AnelExample/AnelCalvo/app/src/main/java/com/anelcalvo/www/myapplication/GitHubService.java" />
         <option value="$PROJECT_DIR$/../../AnelExample/AnelCalvo/app/src/main/java/com/anelcalvo/www/myapplication/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/anelcalvo/www/myapplication/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -320,10 +320,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.32967034" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.32967034" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -335,10 +334,10 @@
       <window_info anchor="bottom" id="Logcat" order="2" weight="0.32894737" />
       <window_info anchor="bottom" id="TODO" order="3" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.32894737" />
-      <window_info anchor="bottom" id="Terminal" order="5" weight="0.32894737" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="5" visible="true" weight="0.32894737" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Build" order="8" visible="true" weight="0.32894737" />
+      <window_info anchor="bottom" id="Build" order="8" weight="0.32894737" />
       <window_info anchor="bottom" id="Android Profiler" order="9" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
@@ -389,6 +388,10 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -398,17 +401,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/anelcalvo/www/myapplication/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-25">
-          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+        <state relative-caret-position="397">
+          <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
